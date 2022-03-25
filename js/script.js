@@ -86,6 +86,6 @@ function resetGame() {
     cpmTag.innerText = 0;
 }
 
-loadParagraph();
+loadParagraph(); //get new paragraph
 inpField.addEventListener("input", initTyping);
 tryAgainBtn.addEventListener("click", resetGame);
